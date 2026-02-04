@@ -4,191 +4,209 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/imgs/favicon-16x16.png" type="image/x-icon">
 </head>
 <body>
-    <img src="https://tse4.mm.bing.net/th/id/OIP.wfvVJi4I7QIDr-OKXbo_rAHaEK?rs=1&pid=ImgDetMain&o=7&rm=3" alt="">
-    <h1><strong>João Vitor Santos Augusto</strong>, 25 anos</h1>
-    <hr>
-    <p>Desenvolvedor | Python | Django | React | Java | SpringBoot | SpringBoot | Ollama  | LangGraph</p>
-    <p>(24) 99818-0935 | <a href="#">jvitorsaugusto@outlook.com</a></p>
-    <a href="#">linkedin.com/in/joão-vitor-santos-augusto-784128224</a><br>
-    <a href="#">github.com/JvitorSaugusto</a>
+    <header>
+        <img src="/imgs/11260450.gif" alt="et bilu" width="300" height="200">
+        <h1><strong>João Vitor Santos Augusto</strong>, 25 anos</h1>
 
-    <hr>
-
-    <h2>Sobre</h2>
-    <p>Desenvolvedor com experiência prática no desenvolvimento de APIs RESTful utilizando Python (Django Rest Framework) e conteinerização com Docker.
-    <br>No front-end, atuo com JavaScript e React. Possuo prática em Java (Spring Boot), incluindo segurança via JWT e testes unitários (JUnit/Mockito). 
-    <br>Atualmente, estou expandindo meus conhecimentos em IA Generativa, desenvolvendo agentes personalizados, sistemas RAG com LangGraph e Ollama
-    <br>meus estudos futuros envolvem Introdução ao Aprendizado por Reforço e Visão Computacional e Detecção de Objetos.</p>
-
-    <hr>
+        <section id="dados">
+            <p>Desenvolvedor | Python | Django | React | Java | SpringBoot | SpringBoot | Ollama  | LangGraph</p>
+            <p>(24) 99818-0935 | <a href="#">jvitorsaugusto@outlook.com</a></p>
+        </section>
+        
+        <nav>
+            <a href="linkedin.com/in/joão-vitor-santos-augusto-784128224">linkedin.com/in/joão-vitor-santos-augusto-784128224</a><br>
+            <a href="https://github.com/JvitorSaugusto">github.com/JvitorSaugusto</a>
+        </nav>
+    </header>
     
-    <h2><strong>Conhecimentos</strong></h2>
-    <p>
-
-    <ul>
-        <li><strong>Uso Diário (Profissional):</strong> 
+    <section id="sobre">
+        <h2><strong>Sobre</strong></h2>
+        <div>
+            <p>Desenvolvedor com experiência prática no desenvolvimento de APIs RESTful utilizando Python (Django Rest Framework) e conteinerização com Docker.
+            <br>No front-end, atuo com JavaScript e React. Possuo prática em Java (Spring Boot), incluindo segurança via JWT e testes unitários (JUnit/Mockito). 
+            <br>Atualmente, estou expandindo meus conhecimentos em IA Generativa, desenvolvendo agentes personalizados, sistemas RAG com LangGraph e Ollama
+            <br>meus estudos futuros envolvem Introdução ao Aprendizado por Reforço e Visão Computacional e Detecção de Objetos.</p>
+        </div>
+    </section>
+    
+    <section id="conhecimentos">
+        <h2><strong>Conhecimentos</strong></h2>
+        <div>
             <ul>
-                <li>Python</li>
-                <li>Django / DRF</li>
-                <li>JavaScript</li>
-                <li>SQL</li>
+                <li><strong>Uso Diário (Profissional):</strong> 
+                    <ul>
+                        <li>Python</li>
+                        <li>Django / DRF</li>
+                        <li>JavaScript</li>
+                        <li>SQL</li>
+                    </ul>
+                </li>
+                <li><strong>Conhecimento Sólido:</strong> 
+                    <ul>
+                        <li>Java</li>
+                        <li>Spring Boot (APIs REST, Segurança)</li>
+                        <li>Docker</li>
+                        <li>Ollama</li>
+                        <li>LangGraph / LangChain</li>
+                    </ul>
+                </li>
+                <li><strong>Ferramenta:</strong> 
+                    <ul>
+                        <li>Git</li>
+                        <li>Testes Unitários</li>
+                        <li>Automação (Selenium/PyAutoGUI)</li>
+                    </ul>
+                </li>
+                <li><strong>Idiomas:</strong> 
+                    <ul>
+                        <li>Inglês (B1 - Leitura e Escrita técnica).</li>
+                    </ul>
+                </li>
             </ul>
-        </li>
-        <li><strong>Conhecimento Sólido:</strong> 
+        </div>
+    </section>
+    
+    <section id="formacao-academica">
+        <h2>Formação Acadêmica</h2>
+        <div>
+            <p><strong>Universidade Estácio de Sá – Sistemas de Informação</strong><br>
+            Início: 2021 – Previsão de Conclusão: 2026
+            </p>
+            <p><strong>Curso de Administrador de Banco de Dados (DBA) – SENAI</strong><br>
+                Fev/2025 – Abr/2025
+            </p>
+            <p>
+                <strong>Curso de Desenvolvedor Front-end - SENAI</strong><br>
+                Jan/2025 - Atual
+            </p>
+        </div>
+    </section>
+    
+    <section id="experiencia">
+        <h2>Experiência Profissional</h2>
+        <div class="experiencia-singular">
+            
+            <p><strong>Estagiário de Desenvolvimento de Software | [Esolvere] <br></strong>(01/07/2024) – Atual</p>
             <ul>
-                <li>Java</li>
-                <li>Spring Boot (APIs REST, Segurança)</li>
-                <li>Docker</li>
-                <li>Ollama</li>
-                <li>LangGraph / LangChain</li>
+                <li>
+                    <strong>Desenvolvimento Fullstack:</strong> Criação e manutenção de módulos de agendamento complexos <strong>(Gráficos de Gantt e Calendários interativos) </strong>
+                    utilizando JavaScript no front-end e Django no back-end.
+                </li>
+                <li>
+                    <strong>Otimização e Performance:</strong> Atuação direta na melhoria de performance de APIs e otimização de consultas ao banco de dados (ORM),
+                    eliminando gargalos como o problema de <strong>N+1.</strong>
+                </li>
+                <li>
+                    <strong>Regras de Negócio e Automação:</strong> Desenvolvimento de motores de cálculo para manutenção preventiva, 
+                    automatizando a geração de Ordens de Serviço (OS) e notificações baseadas no ciclo de vida das peças.
+                </li>
+                <li>
+                    <strong>Correção de bugs</strong> Resolução de problemas críticos em redirecionamentos de API, fluxo de dados e manutenção da API em geral.
+                </li>
             </ul>
-        </li>
-        <li><strong>Ferramenta:</strong> 
+        </div>
+        
+        <div class="experiencia-singular">
+            <p><strong>Auxiliar Administrativo em TI | [Perfect Pay Tecnologias] (04/2023) – (12/2024)</strong></p>
+            <p>(Promovido de Estagiário em infraestrutura de TI (04/2022) - (03/2023))</p>
             <ul>
-                <li>Git</li>
-                <li>Testes Unitários</li>
-                <li>Automação (Selenium/PyAutoGUI)</li>
+                <li>
+                    Criação de scripts de automação para almoxarifado, cadastros de usuários e configuração de sistemas operacionais.
+                </li>
+                <li>
+                    Suporte técnico em hardware e software, com manutenções preventivas e corretivas na infraestrutura de TI.
+                </li>
+                <li>
+                    Elaboração de Procedimentos Operacionais Padrão(POPs) e treinamentos em LGPD.
+                </li>
+                <li>
+                    Gestão de inventário de TI e administração de planos de telefonia corporativa.
+                </li>
             </ul>
-        </li>
-        <li><strong>Idiomas:</strong> 
+        </div>
+    </section>
+    
+    <section id="projetos">
+        <h2><strong>Projetos</strong></h2>
+
+        <div class="projetos-singular">
+            <h3>ZeraFatura 🌟</h3>
+            <p>
+                Saas completo de gerênciamento financeiro com inteligência artificial especializada em dicas e otimização financeira. (Em Desenvolvimento)
+
+            <h3>Funcionalidades</h3>
             <ul>
-                <li>Inglês (B1 - Leitura e Escrita técnica).</li>
+                <li><strong>🔐 Autenticação Segura:</strong> Sistema de registro e login de usuários com autenticação via JSON Web Tokens (JWT).</li>
+                <li><strong>🛡️ Gerenciamento de Finanças:</strong> Operações CRUD completas para as finanças incluindo filtros por data, categoria, tipo de gasto e etc.</li>
+                <li><strong>✅ Assistente Inteligente (RAG):</strong> Botão de insights que aciona uma IA treinada em finanças. Ela analisa o histórico e as metas do usuário via RAG para gerar previsões, dicas personalizadas e ajustar o plano de gastos automaticamente.</li>
             </ul>
-        </li>
-    </ul>
 
-    <hr>
+            <h3>Funcionalidades Futuras</h3>
+            <ul>
+                <li><strong>💳 Gestão de Cartões:</strong> Cadastro e controle de cartões de crédito, permitindo monitorar limites e datas de fechamento.</li>
+                <li><strong>📊 Dashboard Analítico:</strong> Gráficos dinâmicos que destacam as categorias de maior consumo e os cartões com maior volume de gastos.</li>
+                <li><strong>📅 Planejamento de Metas com IA:</strong> Seção onde o usuário define objetivos (valor e prazo). A IA analisa o histórico de gastos para calcular a economia mensal necessária, ajustar a viabilidade do tempo e sugerir cortes específicos em categorias supérfluas para garantir que a meta seja atingida.</li>
+            </ul>
 
-    <h2>Formação Acadêmica</h2>
-    <p><strong>Universidade Estácio de Sá – Sistemas de Informação</strong><br>
-       Início: 2021 – Previsão de Conclusão: 2026
-    </p>
-    <p><strong>Curso de Administrador de Banco de Dados (DBA) – SENAI</strong><br>
-        Fev/2025 – Abr/2025
-    </p>
-    <p>
-        <strong>Curso de Desenvolvedor Front-end - SENAI</strong><br>
-        Jan/2025 - Atual
-    </p>
+            <h3>Tecnologias</h3>
+            <ul>
+                <li><strong>🐍 Python 3.12</strong>.</li>
+                <li><strong>🎸 Django & DRF</strong></li>
+                <li><strong>🧠 Ollama</strong></li>
+                <li><strong>★ LangGraph</strong></li>
+                <li><strong>🐘 PostgreSQL</strong></li>
+                <li><strong>⚛️ React</strong></li>
+                <li><strong>📜 JavaScript</strong></li>
+            </ul>
+        </div>
 
-    <hr>
+        <div class="projetos-singular">
+            <h3>VetClinic API 🐾</h3>
+            <p>
+                API RESTful desenvolvida em Java com Spring Boot para o gerenciamento de uma clínica veterinária, permitindo o cadastro de tutores, pets e autenticação de usuários com JWT.
+            </p>
 
-    <h2>Experiência Profissional</h2>
-    <p><strong>Estagiário de Desenvolvimento de Software | [Esolvere] <br></strong>(01/07/2024) – Atual</p>
-    <ul>
-        <li>
-            <strong>Desenvolvimento Fullstack:</strong> Criação e manutenção de módulos de agendamento complexos <strong>(Gráficos de Gantt e Calendários interativos) </strong>
-            utilizando JavaScript no front-end e Django no back-end.
-        </li>
-        <li>
-            <strong>Otimização e Performance:</strong> Atuação direta na melhoria de performance de APIs e otimização de consultas ao banco de dados (ORM),
-            eliminando gargalos como o problema de <strong>N+1.</strong>
-        </li>
-        <li>
-            <strong>Regras de Negócio e Automação:</strong> Desenvolvimento de motores de cálculo para manutenção preventiva, 
-            automatizando a geração de Ordens de Serviço (OS) e notificações baseadas no ciclo de vida das peças.
-        </li>
-        <li>
-            <strong>Correção de bugs</strong> Resolução de problemas críticos em redirecionamentos de API, fluxo de dados e manutenção da API em geral.
-        </li>
-    </ul>
+            <h3>Funcionalidades</h3>
+            <ul>
+                <li><strong>🔐 Autenticação Segura:</strong> Sistema de registro e login de usuários com autenticação via JSON Web Tokens (JWT).</li>
+                <li><strong>👨‍👩‍👧‍👦 Gerenciamento de Tutores:</strong> Operações CRUD (Create, Read, Update, Delete) completas para os tutores dos pets.</li>
+                <li><strong>🐶 Gerenciamento de Pets:</strong> Operações CRUD completas para os pets, com vínculo direto aos seus tutores.</li>
+                <li><strong>✅ Validação:</strong> Validação de dados de entrada para garantir a integridade das informações.</li>
+                <li><strong>🛡️ Tratamento de Exceções:</strong> Handler global para padronizar as respostas de erro da API.</li>
+            </ul>
 
-    <hr>
+            <h3>Testes</h3>
+            <p>O projeto possui uma cobertura de testes para garantir a estabilidade e o correto funcionamento da API.</p>
+            <ul>
+            <li><strong>🧪 Testes de Unidade:</strong> Utilizados para testar as camadas de serviço (Service) de forma isolada, com o auxílio do Mockito para simular o comportamento das dependências.</li>
+            <li><strong>🔗 Testes de Integração:</strong> Utilizados para testar a camada de persistência com o banco de dados (@DataJpaTest) e os endpoints da API (@SpringBootTest), garantindo que todos os componentes funcionam corretamente em conjunto.</li>
+            </ul>
+        </div>
 
-    <p><strong>Auxiliar Administrativo em TI | [Perfect Pay Tecnologias] (04/2023) – (12/2024)</strong></p>
-    <p>(Promovido de Estagiário em infraestrutura de TI (04/2022) - (03/2023))</p>
-    <ul>
-        <li>
-            Criação de scripts de automação para almoxarifado, cadastros de usuários e configuração de sistemas operacionais.
-        </li>
-        <li>
-            Suporte técnico em hardware e software, com manutenções preventivas e corretivas na infraestrutura de TI.
-        </li>
-        <li>
-            Elaboração de Procedimentos Operacionais Padrão(POPs) e treinamentos em LGPD.
-        </li>
-        <li>
-            Gestão de inventário de TI e administração de planos de telefonia corporativa.
-        </li>
-    </ul>
-
-    <hr>
-
-    <h2>Projetos</h2>
-
-    <h3>ZeraFatura 🐾</h3>
-    <p>
-        Saas completo de gerênciamento financeiro com inteligência artificial especializada em dicas e otimização financeira. (Em Desenvolvimento)
-
-    <h3>Funcionalidades</h3>
-    <ul>
-        <li><strong>🔐 Autenticação Segura:</strong> Sistema de registro e login de usuários com autenticação via JSON Web Tokens (JWT).</li>
-        <li><strong>🛡️ Gerenciamento de Finanças:</strong> Operações CRUD completas para as finanças incluindo filtros por data, categoria, tipo de gasto e etc.</li>
-        <li><strong>✅ Assistente Inteligente (RAG):</strong> Botão de insights que aciona uma IA treinada em finanças. Ela analisa o histórico e as metas do usuário via RAG para gerar previsões, dicas personalizadas e ajustar o plano de gastos automaticamente.</li>
-    </ul>
-
-    <h3>Funcionalidades Futuras</h3>
-    <ul>
-        <li><strong>💳 Gestão de Cartões:</strong> Cadastro e controle de cartões de crédito, permitindo monitorar limites e datas de fechamento.</li>
-        <li><strong>📊 Dashboard Analítico:</strong> Gráficos dinâmicos que destacam as categorias de maior consumo e os cartões com maior volume de gastos.</li>
-        <li><strong>📅 Planejamento de Metas com IA:</strong> Seção onde o usuário define objetivos (valor e prazo). A IA analisa o histórico de gastos para calcular a economia mensal necessária, ajustar a viabilidade do tempo e sugerir cortes específicos em categorias supérfluas para garantir que a meta seja atingida.</li>
-    </ul>
-
-    <h3>Tecnologias</h3>
-    <ul>
-        <li><strong>🐍 Python 3.12</strong>.</li>
-        <li><strong>🎸 Django & DRF</strong></li>
-        <li><strong>🧠 Ollama</strong></li>
-        <li><strong>🕸️ LangGraph</strong></li>
-        <li><strong>🐘 PostgreSQL</strong></li>
-        <li><strong>⚛️ React</strong></li>
-        <li><strong>📜 JavaScript</strong></li>
-    </ul>
-
-    <hr>
-
-    <h3>VetClinic API 🐾</h3>
-    <p>
-        API RESTful desenvolvida em Java com Spring Boot para o gerenciamento de uma clínica veterinária, permitindo o cadastro de tutores, pets e autenticação de usuários com JWT.
-    </p>
-
-    <h3>Funcionalidades</h3>
-    <ul>
-        <li><strong>🔐 Autenticação Segura:</strong> Sistema de registro e login de usuários com autenticação via JSON Web Tokens (JWT).</li>
-        <li><strong>👨‍👩‍👧‍👦 Gerenciamento de Tutores:</strong> Operações CRUD (Create, Read, Update, Delete) completas para os tutores dos pets.</li>
-        <li><strong>🐶 Gerenciamento de Pets:</strong> Operações CRUD completas para os pets, com vínculo direto aos seus tutores.</li>
-        <li><strong>✅ Validação:</strong> Validação de dados de entrada para garantir a integridade das informações.</li>
-        <li><strong>🛡️ Tratamento de Exceções:</strong> Handler global para padronizar as respostas de erro da API.</li>
-    </ul>
-
-    <h3>Testes</h3>
-    <p>O projeto possui uma cobertura de testes para garantir a estabilidade e o correto funcionamento da API.</p>
-    <ul>
-    <li><strong>🧪 Testes de Unidade:</strong> Utilizados para testar as camadas de serviço (Service) de forma isolada, com o auxílio do Mockito para simular o comportamento das dependências.</li>
-    <li><strong>🔗 Testes de Integração:</strong> Utilizados para testar a camada de persistência com o banco de dados (@DataJpaTest) e os endpoints da API (@SpringBootTest), garantindo que todos os componentes funcionam corretamente em conjunto.</li>
-    </ul>
-
-    <hr>
-
-    <h3>Sistema-Cadastro-Pet</h3>
-    <p>Projeto Sistema de gerenciamento de pets via CLI desenvolvido como desafio do [Guia DevMagro]. Permite gerenciar informações de pets em abrigos, aplicando: <br>
-     POO | Java I/O (arquivos .txt) | Estruturas de dados | Validação de inputs | Regex.
-    </p>
-    <p>
-    <strong>Funcionalidades</strong>
-    <br>
-    🐶 Gerenciamento de Pets
-    </p>
-    <ul>
-        <li>| Cadastro | - Registra pets com nome, tipo, sexo, idade, etc. + validação robusta;</li>
-        <li>| Busca | - Encontra pets por até 2 critérios (ex: nome + idade);</li>
-        <li>| Edição | - Altera todos os dados (exceto tipo/sexo);</li>
-        <li>| Exclusão | - Remove pets com confirmação;</li>
-        <li>| Listagem | - Mostra todos pets cadastrados;</li>
-        <li>📝 Formulário Dinâmico (Extra!) ✨ Adiciona/remove/altera perguntas no formulário de cadastro, persistidas em ‘formulario.txt’.</li>
-    </ul>
-    <br>
+        <div class="projetos-singular">
+            <h3>Sistema-Cadastro-Pet 🐾</h3>
+            <p>Projeto Sistema de gerenciamento de pets via CLI desenvolvido como desafio do [Guia DevMagro]. Permite gerenciar informações de pets em abrigos, aplicando: <br>
+            POO | Java I/O (arquivos .txt) | Estruturas de dados | Validação de inputs | Regex.
+            </p>
+            <p>
+            <strong>Funcionalidades</strong>
+            <br>
+            🐶 Gerenciamento de Pets
+            </p>
+            <ul>
+                <li> <strong>Cadastro</strong> - Registra pets com nome, tipo, sexo, idade, etc. + validação robusta;</li>
+                <li> <strong>Busca</strong> - Encontra pets por até 2 critérios (ex: nome + idade);</li>
+                <li> <strong>Edição</strong> - Altera todos os dados (exceto tipo/sexo);</li>
+                <li> <strong>Exclusão</strong> - Remove pets com confirmação;</li>
+                <li> <strong>Listagem</strong> - Mostra todos pets cadastrados;</li>
+                <li><strong>📝 Formulário Dinâmico (Extra!)</strong> ✨ Adiciona/remove/altera perguntas no formulário de cadastro, persistidas em ‘formulario.txt’.</li>
+            </ul>
+        </div>
+    </section>
+    <footer>Desenvolvido por João Vitor</footer>
 </body>
 </html>
